@@ -320,8 +320,8 @@ class TribeEventsTicketsPro {
 	 *
 	 * @return string
 	 */
-	public function set_contenttype( $content_type ) {
-		return 'text/html';
+	public function set_contenttype( $content_type = 'text/html' ) {
+		return $content_type;
 	}
 
 	/* Tickets Metabox */
